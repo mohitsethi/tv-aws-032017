@@ -1,7 +1,6 @@
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get -y install linux-image-extra-$(uname -r) aufs-tools
-
 sudo apt-get install \
     apt-transport-https \
     ca-certificates \
@@ -26,3 +25,5 @@ sudo apt-get install -y docker-ce
 # check version, `docker version`
 # more info about docker daemon: `docker info`
 
+# Docker Image Registry
+#  - url: https://hub.docker.com
