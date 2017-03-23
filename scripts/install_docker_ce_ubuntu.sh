@@ -23,5 +23,6 @@ sudo apt-get install -y docker-ce
 # Validate services is running
 # `sudo systemctl status docker`
 # alternatively, `ps -ef | grep docker`
-
+# check version, `docker version`
+# more info about docker daemon: `docker info`
 
