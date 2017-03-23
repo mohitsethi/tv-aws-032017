@@ -20,4 +20,8 @@ sudo add-apt-repository \
 sudo apt-get update -y
 sudo apt-get install -y docker-ce
 
+# Validate services is running
+# `sudo systemctl status docker`
+# alternatively, `ps -ef | grep docker`
+
 
