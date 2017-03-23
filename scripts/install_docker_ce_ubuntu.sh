@@ -27,3 +27,15 @@ sudo apt-get install -y docker-ce
 
 # Docker Image Registry
 #  - url: https://hub.docker.com
+
+# Commands
+# docker pull centos:latest
+# docker images
+# docker ps -a
+# docker run -it centos:latest sh
+# docker ps -a
+# docker run -it centos:latest sleep 20
+# docker run -d -it centos:latest sleep 20
+# docker ps -a
+# docker run -it centos:latest sh
+# docker ps -a
